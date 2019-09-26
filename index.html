@@ -5,5 +5,14 @@
     </p>
     <img src="matrix.png"/>
     <img src="Koala.jpg" id="logo"/>
+    <script src="jquery-3.4.1.js"></script>
+    <script>
+        $(function(){
+            $.get("./data.json",function(result){
+                $("#myname").text(result.myname);
+                $("#mynumber").text(result.mynumber);
+            })
+        })
+    </script>
 </body>
 </html>
