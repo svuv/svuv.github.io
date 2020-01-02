@@ -15,7 +15,7 @@
             <input type="text" id="text">
     <button id="btn">添加</button>
 
-    <ul>
+    <ul id="ul">
         <li>11</li>
     </ul>
         </p>
@@ -44,7 +44,7 @@
                     success:callback,
                 });
 
-                $.get("http://127.0.0.1:8585/lvlilist",
+                $.post("http://127.0.0.1:8585/lvlilist",
                         function(result){
                             for(var i=0;i<result.length;i++){
                                 $("#ul").append("<li>" + result[i] + "</li>")
@@ -66,7 +66,7 @@
             });
                 
                 $("#btn").click(function(){
-                    $.post("http://127.0.0.1:8585/lvli",
+                    $.post("http://127.0.0.1:8585/addlvli",
                     {lvli:$("#text").val()},
                     function(){
                         location.href="index.html"
