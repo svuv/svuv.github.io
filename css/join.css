@@ -1,0 +1,23 @@
+.mid{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.part{
+    width: 1200px;
+    height: 650px;
+    margin: 100px auto auto auto;
+    display: flex;
+    justify-content: center;
+    background-image: url("../img/b2.jpg");
+    background-repeat: no-repeat;
+    background-size: 1300px;
+    overflow: hidden;
+    opacity: 0.9;
+    border-radius: 50px;
+    animation: loadbac 1s linear;
+    transition: 1s ease 0.2s;
+}

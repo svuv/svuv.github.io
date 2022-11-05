@@ -1,0 +1,36 @@
+.mid{
+    height: 100vh;
+    width: 100vw;
+}
+
+.content{
+    padding-top: 60px;
+    padding-left: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.pt{
+    display: flex;
+    width: 650px;
+    height: 200px;
+    background: rgba(208, 220, 230,0.2);
+    backdrop-filter: blur(0.2);
+    float: left;
+    clear: left;
+    margin-top: 30px;
+    backdrop-filter: blur(30px);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(103, 122, 138, 0.8);
+}
+
+.pt .txt{
+    width: 400px;
+    text-align: center;
+    color: rgb(25, 39, 49);
+    font-family: "幼圆";
+}
+.pt .txt h2{
+    color: rgb(53, 75, 104);
+}

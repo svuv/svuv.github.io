@@ -1,64 +1,71 @@
 @charset "utf-8";
-.main{
-    scroll-snap-type: y mandatory;
-    overflow: scroll;
-    overflow-x: hidden;
-    height: 100vh;
-}
-
-.sec{
-    height: 100vh;
+.mid{
+    height: 180vh;
     width: 100vw;
-    scroll-snap-align: start;
-}
-
-.pt{
     display: flex;
     flex-direction: column;
-    height: 250px;
-    width: 500px;
-    float: left;
-    margin: 140px 0px 0px 90px;
-    background: rgba(219, 235, 241,0.8);
-    box-shadow: 0 0 15px rgb(59, 73, 95);
+}
+
+.pt {
+    width: 800px;
+    height: 300px;
+    box-shadow: 0 0 15px rgb(83, 103, 110);
+    background: rgba(71, 142, 175, 0.2);
     border-radius: 15px;
+    backdrop-filter: blur(5px);
+    display: flex;
+    overflow: hidden;
+    margin-top: 80px;
     overflow: hidden;
     scroll-snap-align: start;
     transition: all 0.5s ease 0s;
 }
-.pt:hover{
+
+.pt:hover {
     cursor: pointer;
     transform: scale(1.05);
 }
 
-.pt .txt{
+.lt {
+    margin-left: 10%;
+}
+
+.rt {
+    border-radius: 50%;
+    margin-left: 40%;
+}
+
+.pt .txt {
     height: 310px;
     width: 200px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     margin: auto;
-    
+
 }
 
-.pt .txt h2{
+.pt .txt h2 {
     text-align: center;
     font-size: 3em;
     color: rgb(0, 163, 238);
     height: 30px;
-    line-height: 30px;
+    line-height: 100%;
 }
-.pt .txt p{
+
+.pt .txt p {
     margin-top: -2px;
     word-wrap: break-word;
-    color: rgb(114, 182, 202);
+    color: rgb(255, 0, 0);
 }
-@keyframes load{
-    0%{
+
+@keyframes load {
+    0% {
         background-position-y: 50px;
         opacity: 0;
     }
-    100%{
+
+    100% {
         background-position-y: 0px;
         opacity: 1;
     }
