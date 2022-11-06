@@ -57,26 +57,26 @@ nav .navanim{
 }
 nav .home,a:nth-child(2):hover~.navanim{
     width: 120px;
-    left: 525px;
+    left: 558px;
 }
 
 nav .about,a:nth-child(3):hover~.navanim{
     width: 120px;
-    left: 670px;
+    left: 732px;
 }
 
 nav .blog,a:nth-child(4):hover~.navanim{
     width: 120px;
-    left: 820px;
+    left: 909px;
 }
 
-nav .album,a:nth-child(5):hover~.navanim{
+/* nav .album,a:nth-child(5):hover~.navanim{
     width: 120px;
     left: 970px;
-}
-nav .join,a:nth-child(6):hover~.navanim{
+} */
+nav .join,a:nth-child(5):hover~.navanim{
     width: 120px;
-    left: 1115px;
+    left: 1081px;
 }
 nav .none{
     width: 20%;

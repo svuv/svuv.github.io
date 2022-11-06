@@ -21,3 +21,30 @@
     animation: loadbac 1s linear;
     transition: 1s ease 0.2s;
 }
+
+.p1{
+    display: flex;
+    width: 500px;
+    height: 100px;
+    
+}
+
+.p1 img{
+    width: 50px;
+    height: 60px;
+    
+    vertical-align:middle
+}
+
+.p1 .text{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    left: 50px;
+}
+
+.p1 .text p{
+    
+    margin: auto;
+}
