@@ -11,7 +11,7 @@
     height: 650px;
     margin: 100px auto auto auto;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     background-image: url("../img/b2.jpg");
     background-repeat: no-repeat;
     background-size: 1300px;
@@ -26,25 +26,36 @@
     display: flex;
     width: 500px;
     height: 100px;
-    
+    margin: auto;
 }
 
-.p1 img{
-    width: 50px;
-    height: 60px;
-    
-    vertical-align:middle
-}
+
 
 .p1 .text{
     overflow: hidden;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     margin: auto;
-    left: 50px;
+    float: left;
+}
+.p1 .text img{
+    width: 50px;
+    height: 60px;
+    display: block;
+    vertical-align:middle
 }
 
 .p1 .text p{
     
     margin: auto;
+}
+@keyframes loadbac{
+    0%{
+        opacity: 0;
+        margin-top: 100px;
+    }
+    100%{
+        opacity: 1;
+        margin-top: 50px;
+    }
 }
